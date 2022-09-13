@@ -1,22 +1,31 @@
 .loginpg {
     position: absolute;
-    background: gray;
+    background: lightgray;
     width: 100%;
     height: 100%;
 }
 .logm {
     position: absolute;
-    font-weight: bold;
+    font-weight: bold;  
     color: white;
     font-size: 37px;
-    left: 48%;
-    top: 20%;
+    left: 47%;
+    margin-top: 10%;
+}
+#loging {
+    position: absolute;
+    left: 3%;
+    margin-top: 15px;
+    font-size: 30px;
+    color: lightgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 .loginbox{
     position: absolute;
     background: white;
-    width: 40%;
-    height: 15%;
+    width: 35%;
+    height: 70px;
     left: 35%;
     top: 36%;
     border-radius: 20px;
@@ -26,20 +35,38 @@
 .passwordbox{
     position: absolute;
     background: white;
-    width: 40%;
-    height: 15%;
+    width: 35%;
+    height: 70px;
     left: 35%;
     top: 55%;
     border-radius: 20px;
     border-style: solid;
     border-color: black;
 }
+#passwording {
+    position: absolute;
+    left: 3%;
+    margin-top: 15px;
+    font-size: 30px;
+    color: lightgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .letlog {
     position: absolute;
-    width: 40%;
-    height: 15%;
-    left: 30%;
+    width: 20%;
+    height: 10%;
+    left: 39.5%;
     top: 75%;
-    background: lightgray;
+    background: lightcyan;
     border-radius: 20px;
+}
+#letgo {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 4%;
+    margin-left: 28%;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lightgray;
 }

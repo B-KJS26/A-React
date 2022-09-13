@@ -2,13 +2,15 @@
     position: absolute;
     z-index: 5;
     width: 100%;
-    height: 8%;
+    height: 60px;
     background-color: #57A4FF;
 }
 
 .bt{
     color: black;
     font-weight: bold;
+    margin-top: 15px;
     font-size: 24px;
     margin-left: 1.5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
