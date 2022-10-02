@@ -12,7 +12,7 @@ export default function Login() {
             <div className="letlog">
                 <p id="letgo">Let's Go!</p>
             </div>
-            <p id="singup">회원가입</p>
+            <p id="singup">Singup</p>
         </div>
     );
 }

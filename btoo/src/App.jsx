@@ -1,11 +1,14 @@
-import './Header/Header.css';
-import Header from './Header/Header';
+import './components/Header/Header.css';
+import Header from './components/Header/Header';
 import Login from './Login/Login';
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Login />
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login/>} />
+        </Routes>
+      </Router>
     </div>
   );
 }
