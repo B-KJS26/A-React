@@ -19,19 +19,17 @@ function App() {
 if(photos.length > 0) {
   return(
     photos.map(photo => (
-      (photo.id < 10) ? (
+      (photo.id < 10) ?(
         <div key={photo.id}>
-          <img src={photo.thumbnailUrl} alt="img" />
+          <h1>{photo.id}</h1>
           <p>title: {photo.title}</p>
         </div>
-      )
-      :null
+      ) :null
     ))
   );
 }
   else{
   return (
-
     <div className="App">
       <button onClick={Follow}>ㅋㅋ</button>
     </div>
