@@ -1,28 +1,33 @@
 import logo from './logo.svg';
+import Hello from './Hello';
 import React from 'react';
+import Sub from './sub';
 import './App.css';
 import axios from 'axios';
 import { useState } from 'react';
 function App() {
-  let [photos, setPhotos] = useState([]);
+  let [datas, setDatas] = useState([]);
   function Follow(){
-  const url = "https://jsonplaceholder.typicode.com/photos";
+  const url = "http://13.125.225.199:8001/api/school/neisAPI/schedule?year=2022&month=9";
   axios.get(url)
   .then(function(response) {
-    setPhotos(response.data);
+    setDatas(response.data);
     console.log("성공");
   })
   .catch(function(error) {
     console.log("실패");
   })
 }
-if(photos.length > 0) {
+
+console.log(datas);
+
+if(datas.length > 0) {
   return(
-    photos.map(photo => (
-      (photo.id < 10) ?(
-        <div key={photo.id}>
-          <h1>{photo.id}</h1>
-          <p>title: {photo.title}</p>
+    datas.map(data => (
+      (data.id < 10) ?(
+        <div key={data.id}>
+          <h1>{data.id}</h1>
+          <p>title: {data.title}</p>
         </div>
       ) :null
     ))
@@ -30,9 +35,10 @@ if(photos.length > 0) {
 }
   else{
   return (
-    <div className="App">
-      <button onClick={Follow}>ㅋㅋ</button>
-    </div>
+    <Sub>
+      <Hello color="red" name="ss" isSpecial/>
+      <Hello color="green" />
+    </Sub>
   )}
 }
 
