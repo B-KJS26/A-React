@@ -38,6 +38,7 @@ if(datas.length > 0) {
     <Sub>
       <Hello color="red" name="ss" isSpecial/>
       <Hello color="green" />
+    <h1>이겁니다</h1>
     </Sub>
   )}
 }
