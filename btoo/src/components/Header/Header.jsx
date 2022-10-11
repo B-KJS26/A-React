@@ -7,6 +7,9 @@ export default function Header() {
             <div className='jheader'>
                 <p className='bt'>B'too.com</p>
             </div>
+            <div className='letlog'>
+                <p>Log in</p>
+            </div>
         </div>
     );
 }
