@@ -7,7 +7,7 @@ import axios from 'axios';
 import { useState } from 'react';
 function App() {
   let [datas, setDatas] = useState([]);
-  function Follow(){
+  function Api(){
   const url = "http://13.125.225.199:8001/api/school/neisAPI/schedule?year=2022&month=9";
   axios.get(url)
   .then(function(response) {
