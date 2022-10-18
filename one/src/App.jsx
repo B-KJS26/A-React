@@ -36,9 +36,9 @@ if(datas.length > 0) {
   else{
   return (
     <Sub>
+      <h1>name에 문자를 넣으면 이름으로 나옴. color에 색 이름을 넣어 맘대로 정할 수 있다.</h1>
       <Hello color="red" name="ss" isSpecial/>
       <Hello color="green" />
-    <h1>이겁니다</h1>
     </Sub>
   )}
 }
