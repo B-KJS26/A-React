@@ -1,19 +1,20 @@
+import './login.css';
 export default function Signup() {
     return (
         <div>
             <h1>회원가입</h1>
             <h2>학년</h2>
             <div>
-                <input type="radio" name="grade">1학년</input>
-                <input type="radio" name="grade">2학년</input>
-                <input type="radio" name="grade">3학년</input>
+                <input type="radio" name="grade" id='1grade'/><label for="1grade">1학년</label>
+                <input type="radio" name="grade" id='2grade'/><label for="2grade">2학년</label>
+                <input type="radio" name="grade" id='3grade'/><label for="3grade">3학년</label>
             </div>
             <h2>반</h2>
             <div>
-                <input type="radio" name="class">1반</input>
-                <input type="radio" name="class">2반</input>
-                <input type="radio" name="class">3반</input>
-                <input type="radio" name="class">4반</input>
+                <input type="radio" name="class" id='classone' /><label for="classone">1반</label>
+                <input type="radio" name="class" id='classtwo' /><label for="classtwo">2반</label>
+                <input type="radio" name="class" id='classthird' /><label for="classthird">3반</label>
+                <input type="radio" name="class" id='classfourth' /><label for="classfourth">4반</label>
             </div>
             <h2>닉네임</h2>
             <input type="text" placeholder="닉네임을 입력해주세요"></input>
