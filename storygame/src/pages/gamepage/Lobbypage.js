@@ -1,5 +1,6 @@
 import react from 'react';
 import { Navigate } from 'react-router-dom';
+import '../../styles/gamepage/Lobby.scss';
 export default function Lobby() {
     const nav = Navigate();
     function starting() {
