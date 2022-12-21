@@ -3,7 +3,7 @@ import './pages/gamepage/Lobbypage';
 import Lobby from './pages/Main';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import react from 'react';
-
+import Main from './pages/Main'
 function App() {
   return (
     <div>
