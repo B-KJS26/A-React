@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "MapleBold";
+  font-weight: 50;
+  src: url("./fonts/mbold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MapleLight";
+  font-weight: 50;
+  src: url("./fonts/mlight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Kyobo";
+  font-weight: 50;
+  src: url("./fonts/Kyobo.ttf") format("truetype");
+}

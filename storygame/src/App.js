@@ -4,6 +4,7 @@ import Lobby from './pages/gamepage/Lobbypage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import react from 'react';
 import Main from './pages/Main'
+import './App.css';
 function App() {
   return (
     <div>
