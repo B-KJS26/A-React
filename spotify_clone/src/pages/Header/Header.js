@@ -1,5 +1,8 @@
 import '../../styles/Header/Header.scss'
+import React from 'react';
+import { useNavigate } from 'react-router-dom'
 export default function Header() {
+    let nav = useNavigate();
     return(
         <div className='mainheader'>
             <div className='spotifyheader'>
