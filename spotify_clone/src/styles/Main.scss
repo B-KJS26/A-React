@@ -3,6 +3,7 @@
     height: 600px;
     padding-top: 7%;
     background-color: pink;
+    z-index: 1;
     .shead1 {
         font-size: 65px;
     }
@@ -12,9 +13,11 @@
     }
     .google {
         width: 180px;
+        cursor: pointer;
     }
     .apple {
         width: 180px;
+        cursor: pointer;
     }
     .policy {
         text-decoration: underline;

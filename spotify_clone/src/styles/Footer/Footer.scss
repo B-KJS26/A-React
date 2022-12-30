@@ -10,6 +10,7 @@
     width: 150px;
     margin-top: 120px;
     margin-left: -550px;
+    cursor: pointer;
 }
 .company {
     position: absolute;
@@ -42,5 +43,65 @@
     .linktext {
         font-size: 15px;
         color: gray;
+    }
+}
+.instabox {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #333333;
+    border-radius: 50px;
+    margin-left: 70%;
+    margin-top: 7%;
+    .instaimg {
+        margin-top: 10px;
+        width: 50px;
+        cursor: pointer;
+    }
+}
+.twitterbox {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #333333;
+    border-radius: 50px;
+    margin-left: 75%;
+    margin-top: 7%;
+    .twimg {
+        margin-top: 15px;
+        width: 50px;
+        cursor: pointer;
+    }
+}
+
+.facebox {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #333333;
+    border-radius: 50px;
+    margin-left: 80%;
+    margin-top: 7%;
+    .faceimg {
+        margin-top: 10px;
+        width: 50px;
+        cursor: pointer;
+    }
+}
+
+.terms {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 25%;
+    font-size: 13px;
+    color: gray;
+    .private {
+        margin-left: 30px;
+    }
+    .private2 {
+        margin-left: 30px;
+    }
+    .copyright {
+        margin-left: 700px;
     }
 }
