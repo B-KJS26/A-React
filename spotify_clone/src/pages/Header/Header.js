@@ -32,7 +32,6 @@ export default function Header() {
                     Authorization: `Bearer ${token}`
                 },
                 params: {
-                    
                 }
             })
             res.then(response => setUsername(response.data.display_name));
@@ -43,17 +42,25 @@ export default function Header() {
         setToken(token)
     }, [])
     function Logout() {
-        setToken("")
+        setToken(!token)
         window.localStorage.removeItem("token")
+        window.location.replace("/")
+    }
+    function headerclick() {
+        window.location.replace("/")
+    }
+    function gopre() {
+        nav('/premium');
     }
     return (
         <div className='mainheader'>
             <div className='spotifyheader'>
-                <img src='images/logo.png' className='spotifylogo'></img>
+                <img src='images/logo.png' className='spotifylogo' onClick={headerclick}></img>
                 <div className='headtext'>
-                    <text>프리미엄</text>
+                    <text onClick={gopre}>프리미엄</text>
                     <text>지원</text>
                     <text>다운로드 하기</text>
+                    <text className='bar'>|</text>
                     {!token ?
                         <text onClick={goSign}>회원가입하기</text>
                         : <span className='users'>

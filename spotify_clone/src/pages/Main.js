@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/Main.scss'
 import { useNavigate } from 'react-router-dom';
 import Header from './Header/Header'
-import Fade from "react-reveal/Fade";
 import TextTransition, { presets } from "react-text-transition";
 
 export default function MainPage() {
