@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiOutlineCheck } from 'react-icons/ai';
+import Fade from 'react-reveal'
 export default function Preset5() {
     function gobasic() {
         window.location.href = "https://www.spotify.com/kr-ko/purchase/offer/default-basic-full-premium/?marketing-campaign-id=default&country=KR";
@@ -15,7 +16,7 @@ export default function Preset5() {
             <div className='soge5'>
                 <h1>요금제 선택하기</h1>
                 <p>휴대폰, 스피커 및 기타 디바이스에서 제한 없이 마음껏 들으세요.</p>
-
+                <Fade bottom>
                 <div>
                     <span className='basic'>
                         <div className='box1'>
@@ -104,6 +105,7 @@ export default function Preset5() {
                         </div>
                     </span>
                 </div>
+                </Fade>
             </div>
         </div>
     )

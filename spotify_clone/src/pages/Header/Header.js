@@ -52,6 +52,9 @@ export default function Header() {
     function gopre() {
         nav('/premium');
     }
+    function down() {
+        nav('/download');
+    }
     return (
         <div className='mainheader'>
             <div className='spotifyheader'>
@@ -59,7 +62,7 @@ export default function Header() {
                 <div className='headtext'>
                     <text onClick={gopre}>프리미엄</text>
                     <text>지원</text>
-                    <text>다운로드 하기</text>
+                    <text onClick={down}>다운로드 하기</text>
                     <text className='bar'>|</text>
                     {!token ?
                         <text onClick={goSign}>회원가입하기</text>
