@@ -33,7 +33,6 @@ export default function MainPage() {
     ];
     return (
         <div>
-            <Header />
             <div className='mainbackground'>
                 <video loop autoPlay muted id="bg-video">
                     <source src='video/spotify.mp4' type="video/mp4" />
