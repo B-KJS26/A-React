@@ -4,6 +4,7 @@ import Preset1 from './preset/Preset1';
 import Preset2 from './preset/Preset2';
 import Preset3 from './preset/Preset3';
 import Preset4 from './preset/Preset4';
+import Preset5 from './preset/Preset5';
 export default function Premium() {
     return(
         <div>
@@ -11,6 +12,7 @@ export default function Premium() {
             <Preset2/>
             <Preset3/>
             <Preset4/>
+            <Preset5/>
         </div>
     )
 }
