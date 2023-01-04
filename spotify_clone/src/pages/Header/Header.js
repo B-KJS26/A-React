@@ -34,6 +34,8 @@ export default function Header() {
                 params: {
                 }
             })
+            console.log(res);
+            console.log(res.then(response => (response.data.display_name)));
             res.then(response => setUsername(response.data.display_name));
             res.then(response => setProfile(response.data.images[0].url));
         }
@@ -47,7 +49,7 @@ export default function Header() {
         window.location.replace("/")
     }
     function headerclick() {
-        window.location.replace("/")
+        nav('/');
     }
     function gopre() {
         nav('/premium');

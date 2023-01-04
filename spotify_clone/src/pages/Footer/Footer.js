@@ -3,10 +3,19 @@ import { useNavigate } from 'react-router-dom'
 export default function Footer() {
     const nav = useNavigate();
     function footerlog() {
+        if(window.location == "http://localhost:3000" || window.location == "http://localhost:3000/#"){
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         })
+    }
+    else {
+        nav('/');
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+        }
     }
     function goinsta() {
         window.location.href = 'https://www.instagram.com/spotify/'
