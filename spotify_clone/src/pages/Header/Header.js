@@ -57,13 +57,16 @@ export default function Header() {
     function down() {
         nav('/download');
     }
+    function gohelp() {
+        nav('/help');
+    }
     return (
         <div className='mainheader'>
             <div className='spotifyheader'>
                 <img src='images/logo.png' className='spotifylogo' onClick={headerclick}></img>
                 <div className='headtext'>
                     <text onClick={gopre}>프리미엄</text>
-                    <text>지원</text>
+                    <text onClick={gohelp}>지원</text>
                     <text onClick={down}>다운로드 하기</text>
                     <text className='bar'>|</text>
                     {!token ?
