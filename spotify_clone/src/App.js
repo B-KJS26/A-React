@@ -16,7 +16,7 @@ function App() {
           <Route path='/' element={<MainPage/>}></Route>
           <Route path='/premium' element={<Premium/>}></Route>
           <Route path='/download' element={<Download/>}></Route>
-          <Route path='/help' elemen={<Help/>}></Route>
+          <Route path='/help' element={<Help/>}></Route>
         </Routes>
       <Footer/>
       </BrowserRouter>
