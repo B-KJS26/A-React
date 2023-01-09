@@ -19,7 +19,7 @@
 }
 .naming {
     color: white;
-    margin-left: -10%;
+    margin-left: -15%;
 }
 .searchbar {
     margin-left: 36%;
@@ -35,5 +35,70 @@
         position: absolute;
         margin-top: 13px;
         margin-left: 10px;
+    }
+}
+.helped {
+    width: 100%;
+    height: 450px;
+    padding-top: 1px;
+    background-color: rgb(35, 34, 34);
+    color: white;
+    text-align: left;
+    .helpings {
+        margin-left: 35%;
+        h2 {
+            font-size: 30px;
+        }
+        .span1 {
+            position: absolute;
+            margin-top: 1%;
+            font-size: 20px;
+        }
+        .arrow1 {
+            position: absolute;
+            margin-left: 30%;
+            margin-top: 1%;
+        }
+        .span2 {
+            position: absolute;
+            margin-top: 3%;
+            font-size: 20px;
+        }
+        .arrow2 {
+            position: absolute;
+            margin-left: 30%;
+            margin-top: 3%;
+        }
+        .span3 {
+            position: absolute;
+            margin-top: 5%;
+            font-size: 20px;
+        }
+        .arrow3 {
+            position: absolute;
+            margin-left: 30%;
+            margin-top: 5%;
+        }
+        .span4 {
+            position: absolute;
+            margin-top: 7%;
+            font-size: 20px;
+        }
+        .arrow4 {
+            position: absolute;
+            margin-left: 30%;
+            margin-top: 7%;
+        }
+        .span5 {
+            position: absolute;
+            margin-top: 9%;
+            font-size: 20px;
+        }
+        .arrow5 {
+            position: absolute;
+            margin-left: 30%;
+            margin-top: 9%;
+        }
+        
     }
 }
