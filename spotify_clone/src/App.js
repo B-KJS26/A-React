@@ -10,6 +10,7 @@ import Help from './pages/Help/Help';
 import Pay from './pages/Help/Pay/Pay'
 import Apps from './pages/Help/App/Apps';
 import Premiums from './pages/Help/Premiums/Premiums';
+import Device from './pages/Help/Device/Device';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
           <Route path='/payhelp' element={<Pay/>}></Route>
           <Route path='/apphelp' element={<Apps/>}></Route>
           <Route path='/premiumhelp' element={<Premiums/>}></Route>
+          <Route path='/devicehelp' element={<Device/>}></Route>
         </Routes>
       <Footer/>
       </BrowserRouter>
