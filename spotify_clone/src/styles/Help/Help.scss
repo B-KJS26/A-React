@@ -36,6 +36,37 @@
         margin-top: 13px;
         margin-left: 10px;
     }
+    
+}
+.pictures {
+    margin-top: 1.5%;
+    text-align: left;
+    margin-left: 36%;
+    img {
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .two {
+        width: 178px;
+        margin-left: 1%;
+    }
+    .three {
+        width: 180px;
+        margin-left: 1%;
+    }
+    .fourth {
+        width: 188px;
+        margin-top: 1%;
+    }
+    .five {
+        width: 180px;
+        height: 87px;
+        margin-left: 1%;
+    }
+    .six {
+        margin-left: 1%;
+        width: 178px;
+    }
 }
 .helped {
     width: 100%;

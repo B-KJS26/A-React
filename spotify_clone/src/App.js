@@ -7,6 +7,7 @@ import Premium from './pages/Premium/Premium';
 import Header from './pages/Header/Header';
 import Download from './pages/download/Download';
 import Help from './pages/Help/Help';
+import Pay from './pages/Help/Pay/Pay'
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
           <Route path='/premium' element={<Premium/>}></Route>
           <Route path='/download' element={<Download/>}></Route>
           <Route path='/help' element={<Help/>}></Route>
+          <Route path='/payhelp' element={<Pay/>}></Route>
         </Routes>
       <Footer/>
       </BrowserRouter>

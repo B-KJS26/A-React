@@ -1,9 +1,29 @@
 import '../../styles/Help/Help.scss'
 import react from 'react';
+import { useNavigate } from 'react-router-dom';
 import { CiSearch } from 'react-icons/ci';
 import { IoIosArrowForward } from 'react-icons/io';
 export default function Help() {
     const name = 'Asinp';
+    const nav = useNavigate();
+    function goPay() {
+        nav('/payhelp');
+    }
+    function goapp() {
+        nav('/apphelp');
+    }
+    function gopremium() {
+        nav('/premiumhelp');
+    }
+    function godevice() {
+        nav('/devicehelp');
+    }
+    function goprivacy() {
+        nav('/privacyhelp');
+    }
+    function goaccount() {
+        nav('/accounthelp');
+    }
     return (
         <div>
             <div className='helpbg'>
@@ -12,6 +32,14 @@ export default function Help() {
                 <h2 className='naming'>안녕하세요, {name}님</h2>
                 <div className='searchbar'>
                     <CiSearch size="30" className='imgs' /><span>검색하기</span>
+                </div>
+                <div className='pictures'>
+                    <img src='images/payhelp.png' className='one' onClick={goPay}></img>
+                    <img src='images/premiumhelp.png' className='two' onClick={gopremium}></img>
+                    <img src='images/apphelp.png' className='three' onClick={goapp}></img><br/>
+                    <img src='images/device.png' className='fourth' onClick={godevice}></img>
+                    <img src='images/privacy.png' className='five' onClick={goprivacy}></img>
+                    <img src='images/account.png' className='six' onClick={goaccount}></img>
                 </div>
             </div>
             <div className='helped'>
