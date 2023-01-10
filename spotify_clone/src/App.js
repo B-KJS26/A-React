@@ -8,6 +8,8 @@ import Header from './pages/Header/Header';
 import Download from './pages/download/Download';
 import Help from './pages/Help/Help';
 import Pay from './pages/Help/Pay/Pay'
+import Apps from './pages/Help/App/Apps';
+import Premiums from './pages/Help/Premiums/Premiums';
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,8 @@ function App() {
           <Route path='/download' element={<Download/>}></Route>
           <Route path='/help' element={<Help/>}></Route>
           <Route path='/payhelp' element={<Pay/>}></Route>
+          <Route path='/apphelp' element={<Apps/>}></Route>
+          <Route path='/premiumhelp' element={<Premiums/>}></Route>
         </Routes>
       <Footer/>
       </BrowserRouter>
