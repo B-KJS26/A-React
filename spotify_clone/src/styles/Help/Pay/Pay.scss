@@ -9,10 +9,15 @@
         margin-left: -25%;
         color: white;
         font-size: 20px;
-
+        cursor: pointer;
         .arrowing {
             position: absolute;
             margin-top: 0.24%;
+            margin-left: 0.6%;
+        }
+        :hover {
+            
+        text-decoration: underline;
         }
     }
 
@@ -23,21 +28,93 @@
     }
 
     .rufwp {
-        height: 50px;
+        position: absolute;
+        height: 35px;
+        line-height: 35px;
+        width: 120px;
+        border-radius: 20px;
+        background-color: #333333;
+        margin-left: -13%;
+        cursor: pointer;
+
         .rhksfl {
-            background-color: #333333;
-            font-size: 13px;
+            font-size: 15px;
+            font-weight: bold;
             color: white;
         }
     }
 
-    .tneks {
-        margin-left: 2.5%;
-        color: white;
+    .payhel {
+        position: absolute;
+        height: 35px;
+        line-height: 35px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: #333333;
+        margin-left: -5%;
+        cursor: pointer;
+
+        .tneks {
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+        }
     }
 
-    .ehdnaakf {
-        margin-left: 2.5%;
+    .cndwjs {
+        position: absolute;
+        height: 35px;
+        line-height: 35px;
+        width: 140px;
+        border-radius: 20px;
+        background-color: #333333;
+        margin-left: 2%;
+        cursor: pointer;
+        
+        .ehdnaakf {
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+        }
+    }
+    .payinghelping {
+        margin-top: 7%;
+        text-align: left;
+        margin-left: 37%;
         color: white;
+        font-size: 18px;
+        .arrows {
+            position: absolute;
+            margin-left: 15%;
+        }
+        .duoing {
+            cursor: pointer;
+            :hover {
+                text-decoration: underline;
+            }
+        }
+        .duoing2, .duoing3, .duoing4, .duoing5, .duoing6 {
+            cursor: pointer;
+            margin-top: 4%;
+            :hover {
+                text-decoration: underline;
+            }
+        }
+        .arrows3 {
+            position: absolute;
+            margin-left: 20.2%;
+        }
+        .arrows4 {
+            position: absolute;
+            margin-left: 22.3%;
+        }
+        .arrows5 {
+            position: absolute;
+            margin-left: 14.1%;
+        }
+        .arrows6 {
+            position: absolute;
+            margin-left: 6.9%;
+        }
     }
 }
