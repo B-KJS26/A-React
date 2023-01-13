@@ -4,13 +4,13 @@ import { SlArrowRight } from 'react-icons/sl';
 import { useNavigate } from 'react-router-dom';
 export default function Pay() {
     const nav = useNavigate();
-    function gohoming() {
-        nav('/');
+    function goback() {
+        nav('/help');
     }
     return (
         <div>
             <div className='paybg'>
-                <div className='gohome' onClick={gohoming}>
+                <div className='goback' onClick={goback}>
                     <span>홈</span><SlArrowRight className='arrowing' />
                 </div>
                 <h1 className='rnao'>결제 도움말</h1>
