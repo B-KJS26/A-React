@@ -1,0 +1,148 @@
+.accountbg {
+    padding-top: 1px;
+    width: 100%;
+    height: 1200px;
+    background: linear-gradient(green, black);
+    .goback {
+        margin-top: 5%;
+        margin-left: -25%;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        .arrowing {
+            position: absolute;
+            margin-top: 0.24%;
+            margin-left: 0.6%;
+        }
+        :hover {
+            
+        text-decoration: underline;
+        }
+    }
+
+    .rpwjd {
+        font-size: 50px;
+        margin-left: -12%;
+        color: white;
+    }
+
+    .options {
+        position: absolute;
+        height: 35px;
+        line-height: 35px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: #333333;
+        margin-left: -12.8%;
+        cursor: pointer;
+        .op {
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+        }
+    }
+
+    .options2 {
+        position: absolute;
+        height: 35px;
+        line-height: 35px;
+        width: 160px;
+        border-radius: 20px;
+        background-color: #333333;
+        margin-left: -6.5%;
+        cursor: pointer;
+        .op2 {
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+        }
+    }
+
+    .options3 {
+        position: absolute;
+        height: 35px;
+        line-height: 35px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: #333333;
+        margin-left: 3%;
+        cursor: pointer;
+        .op3 {
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+        }
+    }
+    
+    .options4 {
+        position: absolute;
+        height: 35px;
+        line-height: 35px;
+        width: 70px;
+        border-radius: 20px;
+        background-color: #333333;
+        margin-left: 9.3%;
+        cursor: pointer;
+        .op4 {
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+        }
+    }
+    .accounthelp {
+        margin-top: 7%;
+        text-align: left;
+        margin-left: 37%;
+        color: white;
+        font-size: 18px;
+        .arrows {
+            position: absolute;
+            margin-left: 14%;
+        }
+        .arrows1 {
+            position: absolute;
+            margin-left: 16.4%;
+        }
+        .arrows2 {
+            position: absolute;
+            margin-left: 18.3%;
+        }
+        .arrows3 {
+            position: absolute;
+            margin-left: 19.8%;
+        }
+        .arrows4 {
+            position: absolute;
+            margin-left: 19.1%;
+        }
+        .arrows5 {
+            position: absolute;
+            margin-left: 18.3%;
+        }
+        .arrows6 {
+            position: absolute;
+            margin-left: 17.1%;
+        }
+        .arrows7 {
+            position: absolute;
+            margin-left: 21.4%;
+        }
+        .arrows8 {
+            position: absolute;
+            margin-left: 20.4%;
+        }
+        .ahelp {
+            cursor: pointer;
+            :hover {
+                text-decoration: underline;
+            }
+        }
+        .ahelp1, .ahelp2, .ahelp3, .ahelp4, .ahelp5, .ahelp6, .ahelp7, .ahelp8 {
+            cursor: pointer;
+            margin-top: 5%;
+            :hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
