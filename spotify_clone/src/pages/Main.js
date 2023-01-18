@@ -3,6 +3,7 @@ import '../styles/Main.scss'
 import { useNavigate } from 'react-router-dom';
 import Header from './Header/Header'
 import TextTransition, { presets } from "react-text-transition";
+import { CgArrowDown } from 'react-icons/cg';
 
 export default function MainPage() {
     const nav = useNavigate();
@@ -41,6 +42,9 @@ export default function MainPage() {
                         {TEXTS[index % TEXTS.length]}
                     </TextTransition>
             </div>
+            <div className='wrapping'>
+                <CgArrowDown size="75" className='botarrow'/>
+            </div> 
             <div className='subackground'>
             <video loop autoPlay muted id="bg-video2">
                     <source src='video/spotify2.mp4' type="video/mp4" />
