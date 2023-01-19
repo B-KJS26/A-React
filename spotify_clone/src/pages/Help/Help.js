@@ -52,6 +52,11 @@ export default function Help() {
                     <span className='span5'>결제 수단</span><IoIosArrowForward size="30" className='arrow5'/>
                 </div>
             </div>
+            <div className='gocommunity'>
+                <h1>커뮤니티를 방문하세요</h1>
+                <p>질문이 있으신가요? 전문 지식을 갖춘 전 세계 팬들로 구성된 Spotify 커뮤니티에서<br/>답변을 찾아보세요.</p>
+                <button><text>커뮤니티로 이동</text></button>
+            </div>
         </div>
     )
 }
