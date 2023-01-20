@@ -26,31 +26,58 @@ export default function Footer() {
     function goface() {
         window.location.href = 'https://www.facebook.com/Spotify'
     }
+    function detail() {
+        window.location.href = 'https://www.spotify.com/kr-ko/about-us/contact/';
+    }
+    function codyd() {
+        window.location.href = 'https://www.lifeatspotify.com/';
+    }
+    function forthe() {
+        window.location.href = 'https://newsroom.spotify.com/';
+    }
+    function artist() {
+        window.location.href = 'https://artists.spotify.com/';
+    }
+    function developer() {
+        window.location.href = 'https://developer.spotify.com/';
+    }
+    function investor() {
+        window.location.href = 'https://investors.spotify.com/home/default.aspx';
+    }
+    function supplier() {
+        window.location.href = 'https://spotifyforvendors.com/';
+    }
+    function supply() {
+        window.location.href = 'https://support.spotify.com/kr-ko/';
+    }
+    function applayer() {
+        window.location.href = 'https://open.spotify.com/';
+    }
     return (
         <div className='footers'>
             <img src='images/logo.png' className="spolog" onClick={footerlog}></img>
             <div className='company'>
                 <p className='comtext'>회사</p>
                 <div className='declick'>
-                    <p>상세정보</p>
-                    <p>채용 정보</p>
-                    <p>For the Record</p>
+                    <p onClick={detail}>상세정보</p>
+                    <p onClick={codyd}>채용 정보</p>
+                    <p onClick={forthe}>For the Record</p>
                 </div>
             </div>
             <div className='community'>
                 <p className='communitytext'>커뮤니티</p>
                 <div className='declick'>
-                    <p>아티스트</p>
-                    <p>개발자</p>
-                    <p>투자자</p>
-                    <p>공급업체</p>
+                    <p onClick={artist}>아티스트</p>
+                    <p onClick={developer}>개발자</p>
+                    <p onClick={investor}>투자자</p>
+                    <p onClick={supplier}>공급업체</p>
                 </div>
             </div>
             <div className='link'>
                 <p className='linktext'>유용한 링크</p>
                 <div className='declick'>
-                    <p>지원</p>
-                    <p>앱 플레이어</p>
+                    <p onClick={supply}>지원</p>
+                    <p onClick={applayer}>앱 플레이어</p>
                 </div>
             </div>
             <div className='wowz'>

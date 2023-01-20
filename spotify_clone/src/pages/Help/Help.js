@@ -24,6 +24,9 @@ export default function Help() {
     function goaccount() {
         nav('/accounthelp');
     }
+    function goco() {
+        window.location.href = 'https://community.spotify.com/t5/FAQs/tkb-p/Spotify-Answers?_ga=2.265549894.899765358.1674224610-1814175852.1668667620&_gac=1.82343012.1671155387.Cj0KCQiAqOucBhDrARIsAPCQL1YpFplgjoGpE5ZS0-9W8yQqoyncZ3eUUaEBXGCIzWKnRVyi19YQehMaAtcJEALw_wcB';
+    }
     return (
         <div>
             <div className='helpbg'>
@@ -55,7 +58,7 @@ export default function Help() {
             <div className='gocommunity'>
                 <h1>커뮤니티를 방문하세요</h1>
                 <p>질문이 있으신가요? 전문 지식을 갖춘 전 세계 팬들로 구성된 Spotify 커뮤니티에서<br/>답변을 찾아보세요.</p>
-                <button><text>커뮤니티로 이동</text></button>
+                <button onClick={goco}><text>커뮤니티로 이동</text></button>
             </div>
         </div>
     )
