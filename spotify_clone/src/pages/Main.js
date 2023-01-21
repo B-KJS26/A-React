@@ -17,7 +17,12 @@ export default function MainPage() {
         window.location.href = 'https://apps.apple.com/kr/app/spotify-discover-new-music/id324684580'
     }
     const [index, setIndex] = React.useState(0);
+    const [scrollPosition, setScrollPosition] = React.useState(0);
+    const updateScroll = () => {
+        setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+    }
     React.useEffect(() => {
+        window.addEventListener('scroll', updateScroll);
         const intervalId = setInterval(() =>
             setIndex(index => index + 1),
             1500 // every 3 seconds
@@ -42,7 +47,7 @@ export default function MainPage() {
                         {TEXTS[index % TEXTS.length]}
                     </TextTransition>
             </div>
-            <div className='wrapping'>
+            <div className={scrollPosition < 200 ? "wrapping" : "nowrapping"}>
                 <CgArrowDown size="75" className='botarrow'/>
             </div> 
             <div className='subackground'>
