@@ -53,6 +53,15 @@ export default function Footer() {
     function applayer() {
         window.location.href = 'https://open.spotify.com/';
     }
+    function golaw() {
+        window.location.href = 'https://www.spotify.com/kr-ko/legal/end-user-agreement/';
+    }
+    function private1() {
+        window.location.href = 'https://www.spotify.com/kr-ko/privacy';
+    }
+    function privating2() {
+        window.location.href = 'https://www.spotify.com/kr-ko/legal/privacy-policy';
+    }
     return (
         <div className='footers'>
             <img src='images/logo.png' className="spolog" onClick={footerlog}></img>
@@ -94,9 +103,9 @@ export default function Footer() {
             <div className='terms'>
                 <p>
                     <span className='declick'>
-                        <span>법률 정보</span>
-                        <span className='private'>개인정보 보호 센터</span>
-                        <span className='private2'>개인정보 처리방침</span>
+                        <span onClick={golaw}>법률 정보</span>
+                        <span onClick={private1} className='private'>개인정보 보호 센터</span>
+                        <span onClick={privating2} className='private2'>개인정보 처리방침</span>
                     </span>
                     <span className='copyright'>© 2022 Spotify AB</span>
                 </p>
