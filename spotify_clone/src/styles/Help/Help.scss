@@ -85,6 +85,10 @@
             margin-top: 1%;
             font-size: 20px;
         }
+        .span1:hover, .arrow1:hover, .span2:hover, .arrow2:hover, .span3:hover, .arrow3:hover, .span4:hover, .arrow4:hover, .span5:hover, .arrow5:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
         .arrow1 {
             position: absolute;
             margin-left: 30%;
