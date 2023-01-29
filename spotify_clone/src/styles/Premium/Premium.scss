@@ -59,6 +59,7 @@
 
         text {
             text-decoration: underline;
+            cursor: pointer;
         }
     }
 
@@ -111,6 +112,7 @@
 
         text {
             text-decoration: underline;
+            cursor: pointer;
         }
     }
 
@@ -118,6 +120,7 @@
         position: absolute;
         margin-left: 70%;
         margin-top: -15%;
+
     }
 }
 
@@ -139,11 +142,13 @@
     img {
         padding-left: -20px;
         width: 200px;
+        cursor: pointer;
     }
 
     .sh3 {
         text {
             text-decoration: underline;
+            cursor: pointer;
         }
     }
 }

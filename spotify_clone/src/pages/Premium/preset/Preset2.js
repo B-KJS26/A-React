@@ -5,6 +5,9 @@ export default function Preset2() {
     function goApple() {
         window.location.href = 'https://apps.apple.com/kr/app/spotify-discover-new-music/id324684580'
     }
+    function preservs() {
+        window.location.href = 'https://www.spotify.com/kr-ko/legal/end-user-agreement/';
+    }
     return(
         <div>
             <div className='soge2'>
@@ -14,7 +17,7 @@ export default function Preset2() {
                     <img src='images/google.png' className='google' alt='goolgle' onClick={goGoogle}></img>
                     <img src='images/apple.png' className='apple' alt='apple' onClick={goApple}></img>
                 </div>
-                <p className='sh3'><text>약관</text>이 적용됩니다. Premium을 이미 이용해 보셨거나 다른 기기로 이용하시려는 경우 이 프로모션을 이용할 수 없습니다.<br/>7일 후에도 계속 Spotify 서비스를 이용하려면 Premium을 구독해야 합니다.</p>
+                <p className='sh3' onClick={preservs}><text>약관</text>이 적용됩니다. Premium을 이미 이용해 보셨거나 다른 기기로 이용하시려는 경우 이 프로모션을 이용할 수 없습니다.<br/>7일 후에도 계속 Spotify 서비스를 이용하려면 Premium을 구독해야 합니다.</p>
             </div>
         </div>
     )
