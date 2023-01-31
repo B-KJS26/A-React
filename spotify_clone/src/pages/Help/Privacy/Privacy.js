@@ -7,6 +7,15 @@ export default function Privacy() {
     function goback() {
         nav('/help');
     }
+    function one() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/data-rights-and-privacy-settings/';
+    }
+    function two() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/understanding-my-data/';
+    }
+    function three() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/gdpr-article-15-information/';
+    }
     return (
         <div>
             <div className='privacybg'>
@@ -26,13 +35,13 @@ export default function Privacy() {
                     </span>
                 </div>
                 <div className='privating'>
-                    <div className='pving'>
+                    <div className='pving' onClick={one}>
                         <span>데이터 권리 및 개인정보 설정</span><SlArrowRight size='25' className='arrows' />
                     </div>
-                    <div className='pving2'>
+                    <div className='pving2' onClick={two}>
                         <span>내 데이터 이해하기</span><SlArrowRight size='25' className='arrows1' />
                     </div>
-                    <div className='pving3'>
+                    <div className='pving3' onClick={three}>
                         <span>GDPR 제15조 정보</span><SlArrowRight size='25' className='arrows2' />
                     </div>
                 </div>

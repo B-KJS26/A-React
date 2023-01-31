@@ -23,7 +23,7 @@ export default function Device() {
         window.location.href = 'https://support.spotify.com/kr-ko/article/spotify-connect/';
     }
     function six() {
-        winddow.location.href = 'https://support.spotify.com/kr-ko/article/bluetooth/';
+        window.location.href = 'https://support.spotify.com/kr-ko/article/bluetooth/';
     }
     return (
         <div>
