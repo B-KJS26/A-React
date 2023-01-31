@@ -7,6 +7,33 @@ export default function Apps() {
     function goback() {
         nav('/help');
     }
+    function one() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/getting-started/';
+    }
+    function two() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/what-is-spotify/';
+    }
+    function three() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/your-library/';
+    }
+    function four() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/now-playing/';
+    }
+    function five() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/where-spotify-is-available/';
+    }
+    function six() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/supported-devices-for-spotify/';
+    }
+    function seven() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/spotify-public-commercial-use/';
+    }
+    function eight() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/keyboard-shortcuts/';
+    }
+    function nine() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/spotify-for-artists/';
+    }
     return (
         <div>
             <div className='appbg'>
@@ -38,31 +65,31 @@ export default function Apps() {
                     </span>
                 </div>
                 <div className='prehelping'>
-                    <div className='premium'>
+                    <div className='premium' onClick={one}>
                         <span>시작하기</span><SlArrowRight size='25' className='arrows' />
                     </div>
-                    <div className='premium2'>
+                    <div className='premium2' onClick={two}>
                         <span>Spotify란 무엇인가요?</span><SlArrowRight size='25' className='arrows1' />
                     </div>
-                    <div className='premium3'>
+                    <div className='premium3' onClick={three}>
                         <span>내 라이브러리</span><SlArrowRight size='25' className='arrows2' />
                     </div>
-                    <div className='premium4'>
+                    <div className='premium4' onClick={four}>
                         <span>지금 재생 중</span><SlArrowRight size='25' className='arrows3' />
                     </div>
-                    <div className='premium5'>
+                    <div className='premium5' onClick={five}>
                         <span>어느 국가에서 Spotify를 이용할 수 있나요?</span><SlArrowRight size='25' className='arrows4' />
                     </div>
-                    <div className='premium6'>
+                    <div className='premium6' onClick={six}>
                         <span>Spotify를 지원하는 기기</span><SlArrowRight size='25' className='arrows5' />
                     </div>
-                    <div className='premium7'>
+                    <div className='premium7' onClick={seven}>
                         <span>공개 또는 상업적 용도로 Spotify 이용하기</span><SlArrowRight size='25' className='arrows6' />
                     </div>
-                    <div className='premium8'>
+                    <div className='premium8' onClick={eight}>
                         <span>바로 가기 키</span><SlArrowRight size='25' className='arrows7' />
                     </div>
-                    <div className='premium9'>
+                    <div className='premium9' onClick={nine}>
                         <span>Spotify for Artists</span><SlArrowRight size='25' className='arrows8' />
                     </div>
                 </div>

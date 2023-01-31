@@ -7,6 +7,12 @@ export default function Premiums() {
     function goback() {
         nav('/help');
     }
+    function goone() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/premium-plans/';
+    }
+    function gotwo() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/start-or-join-duo-plan/';
+    }
     return (
         <div>
             <div className='premiumbg'>
@@ -26,10 +32,10 @@ export default function Premiums() {
                     </span>
                 </div>
                 <div className='prehelping'>
-                    <div className='premium'>
+                    <div className='premium' onClick={goone}>
                         <span>Premium 요금제</span><SlArrowRight size='25' className='arrows' />
                     </div>
-                    <div className='premium2'>
+                    <div className='premium2' onClick={gotwo}>
                         <span>듀오 요금제 시작 또는 참여하기</span><SlArrowRight size='25' className='arrows1' />
                     </div>
                 </div>
