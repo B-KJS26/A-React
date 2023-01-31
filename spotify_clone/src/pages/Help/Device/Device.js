@@ -7,6 +7,24 @@ export default function Device() {
     function goback() {
         nav('/help');
     }
+    function one() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/spotify-on-speakers/';
+    }
+    function two() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/spotify-on-alexa-devices/';
+    }
+    function three() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/spotify-on-google-devices/';
+    }
+    function four() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/spotify-on-sonos/';
+    }
+    function five() {
+        window.location.href = 'https://support.spotify.com/kr-ko/article/spotify-connect/';
+    }
+    function six() {
+        winddow.location.href = 'https://support.spotify.com/kr-ko/article/bluetooth/';
+    }
     return (
         <div>
             <div className='devicebg'>
@@ -35,22 +53,22 @@ export default function Device() {
                     </span>
                 </div>
                 <div className='devhelping'>
-                    <div className='deving'>
+                    <div className='deving' onClick={one}>
                         <span>스피커에서 Spotify 이용하기</span><SlArrowRight size='25' className='arrows' />
                     </div>
-                    <div className='deving2'>
+                    <div className='deving2' onClick={two}>
                         <span>Alexa 기기로 Spotify 이용하기</span><SlArrowRight size='25' className='arrows1' />
                     </div>
-                    <div className='deving3'>
+                    <div className='deving3' onClick={three}>
                         <span>Google 기기에서 Spotify 이용하기</span><SlArrowRight size='25' className='arrows2' />
                     </div>
-                    <div className='deving4'>
+                    <div className='deving4' onClick={four}>
                         <span>Sonos에서 Spotify 이용하기</span><SlArrowRight size='25' className='arrows3' />
                     </div>
-                    <div className='deving5'>
+                    <div className='deving5' onClick={five}>
                         <span>Spotify Connect</span><SlArrowRight size='25' className='arrows4' />
                     </div>
-                    <div className='deving6'>
+                    <div className='deving6' onClick={six}>
                         <span>Spotify 관련 Bluetooth 도움말</span><SlArrowRight size='25' className='arrows5' />
                     </div>
                 </div>
