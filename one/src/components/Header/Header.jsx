@@ -1,13 +1,15 @@
 import { Navigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom/dist";
 import './Header.css';
 export default function Header() {
+    const nav = useNavigate();
     function Logins() {
-        //페이지 이동 코드 추가할 예정
+        nav('/login');
     }
     return(
-        <div>
-            <h2 className="title">민준민준챗</h2>
-            <text onClick={Logins} className="loginso">Log in / Sign up</text>
+        <div className="headers">
+            <h2 className="title">Discord</h2>
+            <text onClick={Logins} className="loginso">Log in</text>
         </div>
     )
 }
