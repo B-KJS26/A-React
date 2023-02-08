@@ -1,0 +1,45 @@
+.servefour {
+    position: absolute;
+    margin-top: 2650px;
+    height: 1500px;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    .imging {
+        width: 62%;
+        margin-top: 50px;
+    }
+    .decoration {
+        margin-top: 30px;
+    }
+    h1 {
+        margin-top: 150px;
+        font-size: 50px;
+    }
+    p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h2 {
+        font-size: 35px;
+        margin-top: -10px;
+    }
+    button {
+        background-color: #5865f2;
+        color: white;
+        border: 0;
+        border-radius: 30px;
+        width: 300px;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+        .icons {
+            margin-left: -210px;
+        }
+        text {
+            position: absolute;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+    }
+}

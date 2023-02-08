@@ -1,5 +1,5 @@
-import two from '../../../img/third.svg'
-import './Serve3.scss'
+import three from '../../../img/third.svg'
+import './Serve3.scss';
 import FadeIn from 'react-fade-in';
 export default function Servethree() {
     return(
@@ -8,12 +8,12 @@ export default function Servethree() {
             delay={500}
             transitionDuration={1000}
             >
-            <img src={two} className='imging'></img>
-            <h1>누구나 쉽게 어울<br/>릴 수 있는 곳</h1>
-            <p>모처럼 한가하다면 음성 채널에 들어가 보<br/>
-            세요. 전화를 걸 필요 없이 입장과 동시에 서<br/>
-            버에 있는 친구들과 대화를 나눌 수 있답니<br/>
-            다.</p> 
+            <img src={three} className='imging'></img>
+            <h1>소규모 모임에서<br/>팬덤까지</h1>
+            <p>어느 커뮤니티라도 운영할 수 있는 관리 도<br/>
+            구가 주어지며, 멤버의 권한도 지정할 수 있<br/>
+            어요. 멤버에게 특별한 권한을 주거나, 비공<br/>
+            개 채널을 만들어보세요.</p> 
             </FadeIn>
         </div>
     )
