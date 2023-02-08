@@ -5,6 +5,7 @@ import Yo2 from '../../img/discord2.svg';
 import Yo3 from '../../img/discord3.svg';
 import Logo from '../../img/lgo.png';
 import './Header.scss';
+import { MdOutlineFileDownload } from 'react-icons/md'
 export default function Header() {
     const nav = useNavigate();
     function Logins() {
@@ -33,7 +34,10 @@ export default function Header() {
                     간. 소중한 단짝 친구들과 어울릴 수 있는 우리만의 공간. 더 쉽게, 매일 어울리고 이야기할
                     수 있는 그런 공간 말이에요.</p>
             </div>
-            <button className="window"><text>Windows용 다운로드</text></button>
+            <button className="window">
+                <MdOutlineFileDownload size={28} className='yo'/>
+                <text>Windows용 다운로드</text>
+            </button>
             <button className="browser"><text>웹브라우저에서 Discord 열기</text></button>
         </div>
     )

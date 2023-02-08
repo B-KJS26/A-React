@@ -77,6 +77,14 @@
         border: 0;
         color: black;
         cursor: pointer;
+        .yo {
+            margin-left: -200px;
+        }
+        text {
+            position: absolute;
+            margin-top: 2px;
+            margin-left: 15px;
+        }
     }
     .browser {
         position: absolute;
