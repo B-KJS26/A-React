@@ -1,0 +1,26 @@
+.serveone {
+    position: absolute;
+    margin-top: 700px;
+    height: 650px;
+    width: 100%;
+    background-color: white;
+    .imging {
+        position: absolute;
+        margin-left: 15%;
+        margin-top: 80px;
+        width: 35%;
+    }
+    h1 {
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 110px;
+        font-size: 50px;
+    }
+    p {
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 360px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
