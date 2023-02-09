@@ -1,3 +1,4 @@
+import Footer from './Footer/Footer'
 import Header from './Header/Header'
 import './Main.scss'
 import Serveone from './Mainserve/Serve1/Serve1'
@@ -12,6 +13,7 @@ export default function Main(){
             <Servetwo/>
             <Servethree/>
             <Servefour/>
+            <Footer/>
         </div>
     )
 }
