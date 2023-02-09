@@ -4,4 +4,50 @@
     height: 600px;
     width: 100%;
     background-color: #23272a;
+    h1{
+        color: #5865e5;
+        margin-left: 360px;
+        margin-top: 80px;
+        line-height: 40px;
+    }
+    .one {
+        position: absolute;
+        color: white;
+        margin-left: 41%;
+        line-height: 20px;
+        margin-top: -100px;
+        .onething {
+            color: #5865e5;
+        }
+    }
+    .two {
+        position: absolute;
+        color: white;
+        margin-left: 51%;
+        line-height: 20px;
+        margin-top: -100px;
+        .twothing {
+            color: #5865e5;
+        }
+    }
+    .three {
+        position: absolute;
+        color: white;
+        margin-left: 61%;
+        line-height: 20px;
+        margin-top: -100px;
+        .threething {
+            color: #5865e5;
+        }
+    }
+    .four {
+        position: absolute;
+        color: white;
+        margin-left: 71%;
+        line-height: 20px;
+        margin-top: -100px;
+        .fourthing {
+            color: #5865e5;
+        }
+    }
 }
