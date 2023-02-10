@@ -75,4 +75,29 @@
             color: #5865e5;
         }
     }
+    .line {
+        position: absolute;
+        background-color: #5865e5;
+        width: 70%;
+        height: 0.5%;
+        margin-left: 15%;
+        margin-top: 300px;
+    }
+    .logo2 {
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 15%;
+    }
+    .register {
+        position: absolute;
+        background-color: #5865e5;
+        border: 0;
+        border-radius: 30px;
+        color: white;
+        height: 40px;
+        width: 90px;
+        margin-top: 330px;
+        margin-left: 79%;
+        cursor: pointer;
+    }
 }

@@ -3,6 +3,7 @@ import Twitter from '../../img/twitter.png';
 import Insta from '../../img/insta.png'
 import Face from '../../img/facebook.png';
 import Youtube from '../../img/youtube.png';
+import Logo2 from '../../img/logo2.png';
 import react from 'react';
 
 export default function Footer() {
@@ -17,6 +18,9 @@ export default function Footer() {
     }
     function goy() {
         window.location.href = 'https://www.youtube.com/discord';
+    }
+    function goregister() {
+        window.location.href = 'https://discord.com/register';
     }
     return(
         <div className='footer'>
@@ -60,6 +64,9 @@ export default function Footer() {
                 <p>라이선스</p>
                 <p>관리</p>
             </div>
+            <div className='line'></div>
+            <img src={Logo2} className='logo2'></img>
+            <button className='register' onClick={goregister}><text>가입하기</text></button>
         </div>
     )
 }
