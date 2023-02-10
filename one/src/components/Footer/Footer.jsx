@@ -1,10 +1,30 @@
 import './Footer.scss';
+import Twitter from '../../img/twitter.png';
+import Insta from '../../img/insta.png'
+import Face from '../../img/facebook.png';
+import Youtube from '../../img/youtube.png';
 import react from 'react';
 
 export default function Footer() {
+    function got() {
+        window.location.href = 'https://twitter.com/discord';
+    }
+    function goi() {
+        window.location.href = 'https://www.instagram.com/discord/';
+    }
+    function gof() {
+        window.location.href = 'https://www.facebook.com/discord/';
+    }
+    function goy() {
+        window.location.href = 'https://www.youtube.com/discord';
+    }
     return(
         <div className='footer'>
             <h1>이런 공간이 있다면<br/>어떨까요</h1>
+            <img src={Twitter} className='twitter' onClick={got}></img>
+            <img src={Insta} className='insta' onClick={goi}></img>
+            <img src={Face} className='face' onClick={gof}></img>
+            <img src={Youtube} className='youtube' onClick={goy}></img>
             <div className='one'>
                 <p className='onething'>제품</p>
                 <p>다운로드</p>

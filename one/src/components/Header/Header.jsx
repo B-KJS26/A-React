@@ -5,7 +5,8 @@ import Yo2 from '../../img/discord2.svg';
 import Yo3 from '../../img/discord3.svg';
 import Logo from '../../img/lgo.png';
 import './Header.scss';
-import { MdOutlineFileDownload } from 'react-icons/md'
+import { MdOutlineFileDownload } from 'react-icons/md';
+
 export default function Header() {
     const nav = useNavigate();
     function Logins() {
@@ -30,8 +31,8 @@ export default function Header() {
             <div className="paragraph">
                 <h1>이런 공간이 있다면 어떨까
                     <br />요...</h1>
-                <p>...학교 동아리, 게임 그룹, 세계 예술 감상 커뮤니티에 소속되어 유대감을 느낄 수 있는 공
-                    간. 소중한 단짝 친구들과 어울릴 수 있는 우리만의 공간. 더 쉽게, 매일 어울리고 이야기할
+                <p>...학교 동아리, 게임 그룹, 세계 예술 감상 커뮤니티에 소속되어 유대감을 느낄 수 있는 
+                    공간. 소중한 단짝 친구들과 어울릴 수 있는 우리만의 공간. 더 쉽게, 매일 어울리고 이야기할
                     수 있는 그런 공간 말이에요.</p>
             </div>
             <button className="window">
