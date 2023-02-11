@@ -12,6 +12,9 @@ export default function Header() {
     function Logins() {
         nav('/login');
     }
+    function downloading() {
+        nav('/download');
+    }
     return (
         <div className="headers">
             <img src={Logo} className="logo"></img>
@@ -19,7 +22,7 @@ export default function Header() {
             <img src={Yo2} className="img2"></img>
             <img src={Yo3} className="img3"></img>
             <div className="alltext">
-                <span>Download</span>
+                <span onClick={downloading}>Download</span>
                 <text>Nitro</text>
                 <text>Discover</text>
                 <text>Safety</text>
