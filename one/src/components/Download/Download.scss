@@ -1,0 +1,24 @@
+.download {
+    width: 100%;
+    height: 600px;
+    margin-top: 700px;
+    background-color: black;
+    color: white;
+    .downloading {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 250px;
+        h1 {
+            font-size: 60px;
+        }
+        p {
+            margin-top: -30px;
+            font-size: 20px;
+        }
+        .downicon {
+            position: absolute;
+            margin-left: 800px;
+            margin-top: -300px;
+        }
+    }
+}
