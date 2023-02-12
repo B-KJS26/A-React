@@ -1,6 +1,17 @@
+import react from 'react';
+import './Serve0.scss';
+import { MdOutlineFileDownload } from 'react-icons/md';
+import Yo from '../../../img/discord.svg';
+import Yo2 from '../../../img/discord2.svg';
+import Yo3 from '../../../img/discord3.svg';
+import Logo from '../../../img/lgo.png';
+
 export default function Serverzero() {
     return(
-        <div>
+        <div className='geo'>
+            <img src={Yo} className="img1"></img>
+            <img src={Yo2} className="img2"></img>
+            <img src={Yo3} className="img3"></img>
             <div className="paragraph">
                 <h1>이런 공간이 있다면 어떨까
                     <br />요...</h1>
