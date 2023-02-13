@@ -1,6 +1,6 @@
 .download {
     width: 100%;
-    height: 1500px;
+    height: 2500px;
     .downloading {
         position: absolute;
         background-color: #23272a;
@@ -48,6 +48,131 @@
             margin-left: 650px;
             font-size: 20px;
             margin-top: 10px;
+        }
+    }
+    .ios {
+        position: absolute;
+        width: 30%;
+        height: 600px;
+        background-color: #f6f6f6;
+        text-align: center;
+        margin-top: 700px;
+        margin-left: 17%;
+        overflow: hidden;
+        button {
+            background-color: black;
+            color: white;
+            width: 120px;
+            height: 50px;
+            border: 0;
+            border-radius: 30px;
+            font-size: 18px;
+        }
+        .iosimg {
+            position: absolute;
+            margin-left: -48%;
+            margin-top: 150px;
+        }
+    }
+    .and {
+        position: absolute;
+        width: 30%;
+        height: 600px;
+        background-color: #f6f6f6;
+        text-align: center;
+        margin-top: 900px;
+        margin-left: 50%;
+        overflow: hidden;
+        button {
+            background-color: black;
+            color: white;
+            width: 120px;
+            height: 50px;
+            border: 0;
+            border-radius: 30px;
+            font-size: 18px;
+        }
+        .andimg {
+            position: absolute;
+            margin-left: -48%;
+            margin-top: 150px;
+        }
+    }
+    .linux{
+        position: absolute;
+        width: 30%;
+        height: 600px;
+        background-color: #f6f6f6;
+        text-align: center;
+        margin-top: 1380px;
+        margin-left: 17%;
+        overflow: hidden;
+        button {
+            background-color: black;
+            color: white;
+            width: 120px;
+            height: 50px;
+            border: 0;
+            border-radius: 30px;
+            font-size: 18px;
+        }
+        .linuximg {
+            position: absolute;
+            margin-left: -48%;
+            margin-top: 150px;
+        }
+    }
+    .mac {
+        position: absolute;
+        width: 30%;
+        height: 600px;
+        background-color: #f6f6f6;
+        text-align: center;
+        margin-top: 1570px;
+        margin-left: 50%;
+        overflow: hidden;
+        button {
+            background-color: black;
+            color: white;
+            width: 120px;
+            height: 50px;
+            border: 0;
+            border-radius: 30px;
+            font-size: 18px;
+        }
+        .macimg {
+            position: absolute;
+            margin-left: -52%;
+            margin-top: 150px;
+        }
+    }
+    .testing{
+        position: absolute;
+        width: 30%;
+        height: 250px;
+        background-color: #f6f6f6;
+        text-align: left;
+        margin-top: 2050px;
+        margin-left: 17%;
+        overflow: hidden;
+        h1 {
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        p {
+            margin-left: 30px;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        button {
+            background-color: black;
+            color: white;
+            width: 250px;
+            height: 50px;
+            border: 0;
+            border-radius: 30px;
+            font-size: 18px;
+            margin-left: 30px;
         }
     }
 }
