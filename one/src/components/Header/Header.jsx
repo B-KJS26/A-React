@@ -15,12 +15,15 @@ export default function Header() {
     function goingmain() {
         nav('/');
     }
+    function nitro() {
+        nav('/nitro');
+    }
     return (
         <div className="headers">
             <img src={Logo} className="logo" onClick={goingmain}></img>
             <div className="alltext">
                 <span onClick={downloading}>Download</span>
-                <text>Nitro</text>
+                <text onClick={nitro}>Nitro</text>
                 <text>Discover</text>
                 <text>Safety</text>
                 <text>Support</text>
