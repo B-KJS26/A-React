@@ -29,6 +29,20 @@ export default function Nitro() {
                 <p className="p5">서버 부스트 2개</p>
                 <p className="p6">사용자 지정 프로필 등!</p>
             </div>
+            <h1 className="popular">인기 Nitro 특전</h1>
+            <div className="one">
+                <h1>클립에서 사진까지 대형 파일 업로<br/>드로 서로 공유하세요</h1>
+            </div>
+            <div className="two">
+                <h1>멋진 HD 화질로 즐기는 방송 앱과<br/>게임</h1>
+            </div>
+            <div className="three">
+                <h1>어디서나 사용자 지정 이모티콘으로<br/>즐기며 밈을 만드세요</h1>
+            </div>
+            <div className="four">
+                <h1>서버 부스트 2개로 커뮤니티를 위해 특<br/>전을 잠금 해제하세요</h1>
+            </div>
+            <button><text>모든 특전 보기</text></button>
         </div>
     )
 }

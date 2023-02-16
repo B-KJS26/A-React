@@ -1,6 +1,6 @@
 .nitromain {
     width: 100%;
-    height: 1300px;
+    height: 3000px;
     color: white;
 
     video {
@@ -97,5 +97,13 @@
             margin-left: 30px;
             margin-top: 260px;
         }
+    }
+    .popular {
+        position: absolute;
+        color: black;
+        font-size: 40px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 1300px;
     }
 }
