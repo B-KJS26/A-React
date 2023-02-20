@@ -1,6 +1,10 @@
 import Header from "../Header/Header";
 import nitrovideo from '../../img/nitro.webm'
 import './Nitro.scss'
+import One from '../../img/one.svg';
+import Two from '../../img/two.svg';
+import Three from '../../img/three.svg';
+import Four from '../../img/fourth.svg';
 export default function Nitro() {
     return (
         <div className="nitromain">
@@ -32,17 +36,21 @@ export default function Nitro() {
             <h1 className="popular">인기 Nitro 특전</h1>
             <div className="one">
                 <h1>클립에서 사진까지 대형 파일 업로<br/>드로 서로 공유하세요</h1>
+                <img src={One}></img>
             </div>
             <div className="two">
                 <h1>멋진 HD 화질로 즐기는 방송 앱과<br/>게임</h1>
+                <img src={Two}></img>
             </div>
             <div className="three">
                 <h1>어디서나 사용자 지정 이모티콘으로<br/>즐기며 밈을 만드세요</h1>
+                <img src={Three}></img>
             </div>
             <div className="four">
                 <h1>서버 부스트 2개로 커뮤니티를 위해 특<br/>전을 잠금 해제하세요</h1>
+                <img src={Four}></img>
             </div>
-            <button><text>모든 특전 보기</text></button>
+            <button className="benefit"><text>모든 특전 보기</text></button>
         </div>
     )
 }
