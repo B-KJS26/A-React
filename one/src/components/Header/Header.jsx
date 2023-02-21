@@ -18,13 +18,16 @@ export default function Header() {
     function nitro() {
         nav('/nitro');
     }
+    function discover() {
+        nav('/discover');
+    }
     return (
         <div className="headers">
             <img src={Logo} className="logo" onClick={goingmain}></img>
             <div className="alltext">
                 <span onClick={downloading}>Download</span>
                 <text onClick={nitro}>Nitro</text>
-                <text>Discover</text>
+                <text onClick={discover}>Discover</text>
                 <text>Safety</text>
                 <text>Support</text>
                 <text>Blog</text>
