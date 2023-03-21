@@ -1,197 +1,389 @@
 .realmain {
   position: relative;
-  width: 1920px;
-  height: 2368px;
-
+  width: 100vw;
+  height: 170vw;
   background: #F8F8FC;
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 15px 201px;
-  gap: 10px;
-
-  position: absolute;
-  width: 1920px;
-  height: 83.71px;
-  left: 0px;
-  top: 0px;
-
+  width: 100vw;
+  height: 3vw;
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
-}
-
-.imging {
-  width: 195px;
-  height: 53.71px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .mainone {
   width: 100vw;
-  height: 1684px;
+  height: 100vw;
   background-color: #F8F8FC;
 }
 
 .maintwo {
   position: absolute;
-  width: 1920px;
-  height: 1247px;
+  width: 100vw;
+  height: 100vw;
   left: 0px;
-  top: 1121px;
+  top: 70vw;
   background: #FFFCF6;
+  transition: all ease .2s;
+}
+
+@media(max-width: 500px) {
+  .maintwo {
+    position: absolute;
+    width: 100vw;
+    height: 200vw;
+    left: 0px;
+    top: 150vw;
+    background: #FFFCF6;
+    transition: all ease .2s;
+  }
 }
 
 .maintext {
+  transition: all ease .2s;
   position: absolute;
-  width: 502px;
+  width: 28vw;
   height: 180px;
-  left: 258px;
-  top: 339px;
+  left: 13vw;
+  top: 15vw;
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 600;
-  font-size: 55px;
+  font-size: 3vw;
   line-height: 145%;
   color: #262626;
 }
 
-.subtext {
-  position: absolute;
-  width: 683px;
-  height: 72px;
-  left: 261px;
-  top: 561px;
+@media (max-width: 500px) {
+  .maintext {
+    position: absolute;
+    width: 70vw;
+    height: 180px;
+    left: 13vw;
+    top: 15vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7vw;
+    line-height: 145%;
+    text-align: center;
+    color: #262626;
+    transition: all ease .2s;
+  }
+}
 
+.subtext {
+  transition: all ease .2s;
+  position: absolute;
+  width: 33vw;
+  height: 72px;
+  left: 13vw;
+  top: 25vw;
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 1.5vw;
   line-height: 129.5%;
-
   color: #2F2F2F;
+}
+
+@media (max-width: 500px) {
+  .subtext {
+    position: absolute;
+    width: 80vw;
+    height: 72px;
+    left: 8vw;
+    top: 38vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 4vw;
+    line-height: 129.5%;
+    color: #2F2F2F;
+    transition: all ease .2s;
+  }
 }
 
 .spans {
   color: #FFC83B;
 }
 
+.imging {
+  transition: all ease .2s;
+  position: absolute;
+  width: 9vw;
+  height: 2.5vw;
+  left: 10vw;
+  top: 0.5vw;
+}
+
+@media (max-width: 500px) {
+  .imging {
+    position: absolute;
+    width: 18vw;
+    height: 5vw;
+    left: 2vw;
+    top: 0.5vw;
+    transition: all ease .2s;
+  }
+}
+
 .imaging2 {
   position: absolute;
-  width: 1200px;
-  height: 1150px;
-  left: 700px;
-  top: 0px;
+  width: 65vw;
+  height: 60vw;
+  left: 35vw;
+  top: 0;
+  transition: all ease .2s;
+}
+
+@media (max-width: 500px) {
+  .imaging2 {
+    position: absolute;
+    width: 80vw;
+    height: 75vw;
+    left: 3vw;
+    top: 60vw;
+    transition: all ease .2s;
+  }
 }
 
 .imaging3 {
   position: absolute;
-  width: 277px;
-  height: 68px;
-  left: 261px;
-  top: 687px;
+  width: 15vw;
+  height: 3.7vw;
+  left: 13vw;
+  top: 35vw;
+  transition: all ease .2s;
+}
+
+@media (max-width: 500px) {
+  .imaging3 {
+    position: absolute;
+    width: 30vw;
+    height: 7vw;
+    left: 15vw;
+    top: 55vw;
+    transition: all ease .2s;
+  }
 }
 
 .imaging4 {
   position: absolute;
-  width: 277px;
-  height: 68px;
-  left: 565px;
-  top: 687px;
+  width: 15vw;
+  height: 3.8vw;
+  left: 30vw;
+  top: 35vw;
+  transition: all ease .2s;
+}
+
+@media (max-width: 500px) {
+  .imaging4 {
+    position: absolute;
+    width: 30vw;
+    height: 7vw;
+    left: 49vw;
+    top: 55vw;
+    transition: all ease .2s;
+  }
 }
 
 .imaging5 {
   position: absolute;
-  width: 744px;
-  height: 900px;
-  left: 103px;
-  top: 300px;
+  width: 40vw;
+  height: 50vw;
+  left: 5vw;
+  top: 20vw;
+}
+
+@media (max-width: 500px) {
+  .imaging5 {
+    position: absolute;
+    width: 70vw;
+    height: 80vw;
+    left: 12.5vw;
+    top: 80vw;
+  }
 }
 
 .maintexts {
   position: absolute;
-  width: 430px;
+  width: 25vw;
   height: 180px;
-  left: 986px;
-  top: 453px;
+  left: 53vw;
+  top: 25vw;
 
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 600;
-  font-size: 62px;
+  font-size: 3vw;
   line-height: 145%;
-  /* or 90px */
-
-
   color: #262626;
+  transition: all ease .2s;
+}
+
+@media (max-width: 500px) {
+  .maintexts {
+    position: absolute;
+    width: 85vw;
+    height: 180px;
+    left: 5vw;
+    top: 15vw;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7vw;
+    line-height: 145%;
+    color: #262626;
+    transition: all ease .2s;
+    text-align: center;
+  }
 }
 
 .subtexts {
   position: absolute;
-  width: 683px;
+  width: 40vw;
   height: 36px;
-  left: 986px;
-  top: 669px;
-
+  left: 53vw;
+  top: 37vw;
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 1.5vw;
   line-height: 129.5%;
-  /* or 36px */
-
-
   color: #2F2F2F;
+  transition: all ease .2s;
+}
+
+@media (max-width: 500px) {
+  .subtexts {
+    position: absolute;
+    width: 70vw;
+    height: 36px;
+    left: 12vw;
+    top: 29vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4vw;
+    text-align: center;
+    line-height: 129.5%;
+    color: #2F2F2F;
+    transition: all ease .2s;
+  }
 }
 
 .home {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 986px;
-  top: 800px;
+  width: 5.5vw;
+  height: 5.5vw;
+  left: 53vw;
+  top: 45vw;
+  transition: all ease .2s;
+}
 
+@media (max-width: 500px) {
+  .home {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    left: 10vw;
+    top: 48vw;
+    transition: all ease .2s;
+  }
 }
 
 .chat {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 1408px;
-  top: 800px;
+  width: 5.5vw;
+  height: 5.5vw;
+  left: 72vw;
+  top: 45vw;
+  transition: all ease .2s;
+}
+
+@media (max-width: 500px) {
+  .chat {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    left: 48vw;
+    top: 48vw;
+    transition: all ease .2s;
+  }
 }
 
 .homes {
   position: absolute;
   width: 100px;
   height: 100px;
-  left: 1115px;
-  top: 790px;
+  left: 60vw;
+  top: 44vw;
+  font-size: 1.8vw;
+  transition: all ease .2s;
+}
+
+@media (max-width: 500px) {
+  .homes {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    left: 22vw;
+    top: 46vw;
+    font-size: 3vw;
+    transition: all ease .2s;
+  }
 }
 
 .minihomes {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
-  gap: 10px;
-
   position: absolute;
-  width: 180px;
+  width: 10vw;
   height: 32px;
-  left: 1115px;
-  top: 844px;
+  left: 60vw;
+  top: 47vw;
+  font-size: 1vw;
+  transition: all ease .2s;
+}
+
+@media (max-width: 500px) {
+  .minihomes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 20vw;
+    height: 32px;
+    left: 22vw;
+    top: 51vw;
+    font-size: 1.5vw;
+    transition: all ease .2s;
+  }
 }
 
 .chats {
   position: absolute;
   width: 100px;
   height: 100px;
-  left: 1535px;
-  top: 790px;
+  left: 79vw;
+  top: 44vw;
+  font-size: 1.8vw;
+}
+
+@media (max-width: 500px) {
+  .chats {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    left: 60vw;
+    top: 46vw;
+    font-size: 3vw;
+    transition: all ease .2s;
+  }
 }
 
 .minichats {
@@ -202,8 +394,24 @@
   gap: 10px;
 
   position: absolute;
-  width: 180px;
+  width: 10vw;
   height: 32px;
-  left: 1535px;
-  top: 844px;
+  left: 79vw;
+  top: 47vw;
+  font-size: 1vw;
+}
+
+@media (max-width: 500px) {
+  .minichats {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 20vw;
+    height: 32px;
+    left: 60vw;
+    top: 51vw;
+    font-size: 1.5vw;
+    transition: all ease .2s;
+  }
 }
