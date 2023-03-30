@@ -1,0 +1,25 @@
+.headering {
+    position: absolute;
+    width: 99vw;
+    height: 100px;
+    z-index: 1;
+}
+
+.headers {
+    position: absolute;
+    width: 10vw;
+    margin-left: 10%;
+    margin-top: 1.5%;
+}
+
+.buttons {
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 1.5%;
+    width: 5vw;
+    height: 5vh;
+    border: 0;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 1vw;
+}
