@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Header from './header'
+import Onemain from './onemain'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <div className={styles.phone1}></div>
         <div className={styles.phone2}></div>
       </div>
+      <Onemain />
     </>
   )
 }

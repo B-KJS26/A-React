@@ -15,7 +15,7 @@ display: block;
     margin-top: 38%;
     width: 10%;
     height: 12%;
-    animation: fade-in 0.5s;
+    animation: fade-in 3s;
 }
 #globalLoader{
     position: fixed;
@@ -32,16 +32,24 @@ display: block;
     height: 500px;
     background-image: url(/images/v.png);
     background-size: cover;
-    animation: spin 3s;
+    animation: spin 5s;
 }
 /* 애니메이션 시간 */
 .loader div:nth-child(1) {
+    opacity: 0%;
     z-index: 100;
-    animation: spin 3s;
+    animation: spin 5s;
 }
 @keyframes spin {
     0% {
-    opacity: 100%:
+        opacity: 0%:
+    }
+    5% {
+        opacity: 50%;
+    }
+    10% {
+        transform: scale(1);
+        opacity: 100%;
     }
     100% {
         transform: scale(3);
