@@ -14,6 +14,7 @@ export default function App({ Component, pageProps }) {
       wait(1);
       if (loader)
         loader.style.display = 'none';
+      window.scrollTo(0, 0);
     }
   }, []);
   return <Component {...pageProps} />
