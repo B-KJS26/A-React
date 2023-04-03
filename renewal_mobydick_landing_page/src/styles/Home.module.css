@@ -5,6 +5,15 @@
     height: 120vh;
 }
 
+@media(max-width: 600px) {
+    .maining {
+        margin-top: -10px;
+        margin-left: -10px;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
 .imging {
     z-index: -1;
     position: absolute;
@@ -14,6 +23,19 @@
     background-size: contain;
     background-size: 100% 102%;
     background-repeat: no-repeat;
+}
+
+@media(max-width: 600px) {
+    .imging {
+        z-index: -1;
+        position: absolute;
+        width: 100vw;
+        height: 100%;
+        background-image: url(/images/f1.png);
+        background-size: contain;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
 }
 
 .texting {
@@ -28,6 +50,21 @@
     animation: fade-in 2s ease-in-out;
 }
 
+@media(max-width: 600px) {
+    .texting {
+        width: 75%;
+        height: 20%;
+        z-index: 3;
+        font-size: 3vw;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        margin-left: 12.5vw;
+        margin-top: 15vh;
+        animation: fade-in 2s ease-in-out;
+    }
+}
+
 .minitext {
     z-index: 1;
     position: absolute;
@@ -40,12 +77,28 @@
     animation: fade-in 2s ease-in-out;
 }
 
+@media(max-width:600px) {
+    .minitext {
+        display: none;
+        z-index: 1;
+        position: absolute;
+        width: 20%;
+        height: 30%;
+        color: white;
+        font-size: 1.1vw;
+        margin-left: 15.2vw;
+        margin-top: 44vh;
+        animation: fade-in 2s ease-in-out;
+    }
+}
+
 .images {
     position: absolute;
     z-index: 1;
 }
 
 .img1 {
+    cursor: pointer;
     z-index: 1;
     width: 25vw;
     height: 7vh;
@@ -57,16 +110,45 @@
     animation: fade-in 2s ease-in-out;
 }
 
+@media (max-width: 600px) {
+    .img1 {
+        position: absolute;
+        z-index: 1;
+        width: 60vw;
+        margin-left: 20vw;
+        margin-top: 35vh;
+        background-image: url(/images/apple.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        animation: fade-in 2s ease-in-out;
+    }
+}
+
 .img2 {
+    cursor: pointer;
     z-index: 1;
     width: 25vw;
-    height: 7vh;
     margin-left: 15.2vw;
     margin-top: 3vh;
     background-image: url(/images/Play.png);
     background-size: contain;
     background-repeat: no-repeat;
     animation: fade-in 2.5s ease-in-out;
+}
+
+@media(max-width: 600px) {
+    .img2 {
+        position: absolute;
+        z-index: 1;
+        width: 60vw;
+        height: 7vh;
+        margin-left: 20vw;
+        margin-top: 45vh;
+        background-image: url(/images/Play.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        animation: fade-in 2.5s ease-in-out;
+    }
 }
 
 .phone1 {
@@ -82,6 +164,21 @@
     animation: fade-in-one 3s ease-in-out;
 }
 
+@media(max-width: 600px) {
+    .phone1 {
+        position: absolute;
+        z-index: 1;
+        width: 50vw;
+        height: 120vh;
+        margin-top: 55vh;
+        margin-left: 2vw;
+        background-image: url(/images/Phone1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        animation: fade-in-one 3s ease-in-out;
+    }
+}
+
 .phone2 {
     position: absolute;
     z-index: 999;
@@ -93,6 +190,21 @@
     background-size: contain;
     background-repeat: no-repeat;
     animation: fade-in-two 3.5s ease-in-out;
+}
+
+@media(max-width: 600px) {
+    .phone2 {
+        position: absolute;
+        z-index: 999;
+        width: 50vw;
+        height: 120vh;
+        margin-top: 70vh;
+        margin-left: 48vw;
+        background-image: url(/images/Phone2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        animation: fade-in-two 3.5s ease-in-out;
+    }
 }
 
 @keyframes fade-in {

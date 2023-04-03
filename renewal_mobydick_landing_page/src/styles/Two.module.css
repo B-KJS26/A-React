@@ -6,12 +6,32 @@
     background-color: #F4F6FF;
 }
 
+@media(max-width: 600px) {
+    .twomains {
+        margin-left: -10px;
+        margin-top: -30px;
+        width: 100vw;
+        height: 350vh;
+        background-color: #F4F6FF;
+    }
+}
+
 .firsting {
     position: absolute;
     width: 90vw;
     height: 60vh;
     margin-top: 30vh;
     margin-left: 5vw;
+}
+
+@media(max-width: 600px) {
+    .firsting {
+        position: absolute;
+        width: 90vw;
+        height: 100vh;
+        margin-top: 30vh;
+        margin-left: 5vw;
+    }
 }
 
 .texting {
@@ -22,14 +42,39 @@
     margin-left: 2.5vw;
 }
 
+@media(max-width: 600px) {
+    .texting {
+        position: absolute;
+        text-align: center;
+        width: 80vw;
+        height: 50vh;
+        margin-top: -20vh;
+        margin-left: 5vw;
+    }
+}
+
 .text {
     margin-top: 5vh;
     font-size: 2.9vw;
 }
 
+@media(max-width: 600px) {
+    .text {
+        margin-top: 5vh;
+        font-size: 6vw;
+    }
+}
+
 .texts {
     font-size: 1.6vw;
     margin-top: 2vh;
+}
+
+@media(max-width: 600px) {
+    .texts {
+        margin-top: 3vh;
+        font-size: 3vw;
+    }
 }
 
 .textingbox {
@@ -43,6 +88,19 @@
     margin-top: 8vh;
 }
 
+@media(max-width: 600px) {
+    .textingbox {
+        position: absolute;
+        width: 80vw;
+        height: 50vh;
+        background-image: url("/images/texting.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 5vw;
+        margin-top: 15vh;
+    }
+}
+
 .seconding {
     position: absolute;
     margin-left: 5vw;
@@ -51,12 +109,15 @@
     margin-top: 140vh;
 }
 
-.firstext {
-    position: absolute;
-    width: 30vw;
-    height: 50vh;
-    margin-left: 13vw;
-    margin-top: 25vh;
+@media(max-width: 600px) {
+    .seconding {
+        position: absolute;
+        margin-left: 5vw;
+        width: 90vw;
+        height: 150vh;
+        margin-top: 90vh;
+        text-align: center;
+    }
 }
 
 .firsthone,
@@ -64,9 +125,25 @@
     font-size: 2.5vw;
 }
 
+@media(max-width: 600px) {
+
+    .firsthone,
+    .secondhone {
+        font-size: 6vw;
+    }
+}
+
 .firstpone,
 .secondpone {
     font-size: 1.5vw;
+}
+
+@media(max-width: 600px) {
+
+    .firstpone,
+    .secondpone {
+        font-size: 3.5vw;
+    }
 }
 
 .firstimage {
@@ -79,15 +156,41 @@
     background-repeat: no-repeat;
 }
 
+@media(max-width: 600px) {
+    .firstimage {
+        position: absolute;
+        width: 80vw;
+        height: 100vh;
+        margin-left: 10vw;
+        margin-top: 2vh;
+        background-image: url("/images/p1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
 .secondimage {
     position: absolute;
     width: 40vw;
     height: 100vh;
-    margin-left: 15vw;
+    margin-left: 14vw;
     margin-top: 90vh;
     background-image: url("/images/p2.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+@media(max-width: 600px) {
+    .secondimage {
+        position: absolute;
+        width: 80vw;
+        height: 100vh;
+        margin-left: 10vw;
+        margin-top: 150vh;
+        background-image: url("/images/p2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
 
 .secondtext {
@@ -96,4 +199,33 @@
     height: 50vh;
     margin-left: 48vw;
     margin-top: 120vh;
+}
+
+@media(max-width: 600px) {
+    .secondtext {
+        position: absolute;
+        width: 80vw;
+        height: 50vh;
+        margin-left: 5vw;
+        margin-top: 120vh;
+    }
+}
+
+.firstext {
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    margin-left: 13vw;
+    margin-top: 25vh;
+}
+
+@media(max-width: 600px) {
+    .firstext {
+        position: absolute;
+        width: 80vw;
+        height: 50vh;
+        margin-left: 5vw;
+        margin-top: 0vh;
+    }
+
 }
