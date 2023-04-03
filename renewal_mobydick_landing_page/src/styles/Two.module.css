@@ -1,0 +1,99 @@
+.twomains {
+    margin-left: -10px;
+    margin-top: -30px;
+    width: 100vw;
+    height: 400vh;
+    background-color: #F4F6FF;
+}
+
+.firsting {
+    position: absolute;
+    width: 90vw;
+    height: 60vh;
+    margin-top: 30vh;
+    margin-left: 5vw;
+}
+
+.texting {
+    position: absolute;
+    width: 35vw;
+    height: 50vh;
+    margin-top: 5vh;
+    margin-left: 2.5vw;
+}
+
+.text {
+    margin-top: 5vh;
+    font-size: 2.9vw;
+}
+
+.texts {
+    font-size: 1.6vw;
+    margin-top: 2vh;
+}
+
+.textingbox {
+    position: absolute;
+    width: 35vw;
+    height: 50vh;
+    background-image: url("/images/texting.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 50vw;
+    margin-top: 8vh;
+}
+
+.seconding {
+    position: absolute;
+    margin-left: 5vw;
+    width: 90vw;
+    height: 200vh;
+    margin-top: 140vh;
+}
+
+.firstext {
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    margin-left: 13vw;
+    margin-top: 25vh;
+}
+
+.firsthone,
+.secondhone {
+    font-size: 2.5vw;
+}
+
+.firstpone,
+.secondpone {
+    font-size: 1.5vw;
+}
+
+.firstimage {
+    position: absolute;
+    width: 40vw;
+    height: 100vh;
+    margin-left: 50vw;
+    background-image: url("/images/p1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.secondimage {
+    position: absolute;
+    width: 40vw;
+    height: 100vh;
+    margin-left: 15vw;
+    margin-top: 90vh;
+    background-image: url("/images/p2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.secondtext {
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    margin-left: 48vw;
+    margin-top: 120vh;
+}
