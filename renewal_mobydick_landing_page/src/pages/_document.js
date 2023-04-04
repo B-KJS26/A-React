@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import styles from '@/styles/global.css';
 import React from 'react';
 import loader from './loader';
 export default function Document() {
@@ -11,10 +12,10 @@ export default function Document() {
         </style>
       </head>
       <body>
-        <div id={'jebal'}>
-          <img src='/images/log.png' className='loging'></img>
-          <div id={'globalLoader'}>
-            <div className="loader">
+        <div className={styles.jebal}>
+          <img src='/images/log.png' className={styles.loging}></img>
+          <div className={styles.globalLoader}>
+            <div className={styles.loader}>
               <div />
             </div>
           </div>

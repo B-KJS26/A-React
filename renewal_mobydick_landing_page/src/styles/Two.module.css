@@ -161,8 +161,8 @@
         position: absolute;
         width: 80vw;
         height: 100vh;
-        margin-left: 10vw;
-        margin-top: 2vh;
+        margin-left: 8vw;
+        margin-top: 20vh;
         background-image: url("/images/p1.png");
         background-size: contain;
         background-repeat: no-repeat;
@@ -185,7 +185,7 @@
         position: absolute;
         width: 80vw;
         height: 100vh;
-        margin-left: 10vw;
+        margin-left: 8vw;
         margin-top: 150vh;
         background-image: url("/images/p2.png");
         background-size: contain;
