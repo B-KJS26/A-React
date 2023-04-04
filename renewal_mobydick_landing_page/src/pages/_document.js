@@ -10,7 +10,7 @@ export default function Document() {
           {loader}
         </style>
       </head>
-      <body>
+      <body className={styles.body}>
         <div className={styles.jebal}>
           <img src='/images/log.png' className={styles.loging}></img>
           <div className={styles.globalLoader}>
