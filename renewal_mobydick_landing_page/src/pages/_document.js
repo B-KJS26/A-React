@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import styles from '@/styles/global.css';
+import styles from '@/styles/globals.module.css';
 import React from 'react';
 import loader from './loader';
 export default function Document() {
