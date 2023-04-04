@@ -1,8 +1,9 @@
-.body {
+export default `
+body {
     display: block;
 }
 
-.jebal {
+#jebal {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -31,7 +32,7 @@
     }
 }
 
-.globalLoader {
+#globalLoader {
     position: fixed;
     z-index: 1700;
     justify-content: center;
@@ -42,7 +43,7 @@
 }
 
 @media(max-width: 600px) {
-    .globalLoader {
+    #globalLoader {
         position: fixed;
         z-index: 1700;
         justify-content: center;
@@ -105,6 +106,7 @@
     }
 
     100% {
-        opacity: 0%;
+        opac;ity: 0%;
     }
 }
+`

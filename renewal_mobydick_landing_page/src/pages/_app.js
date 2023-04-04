@@ -1,7 +1,11 @@
-import '@/styles/globals.module.css'
 import React from 'react';
+import '../styles/global.css';
 
-export default function App({ Component, pageProps }) {
+const AppWrapper = ({ Component, pageProps }) => {
+  return (<Component {...pageProps} />)
+}
+
+export default function App(props) {
   function wait(sec) {
     let start = Date.now(), now = start;
     while (now - start < sec * 500) {
@@ -17,5 +21,5 @@ export default function App({ Component, pageProps }) {
       window.scrollTo(0, 0);
     }
   }, []);
-  return <Component {...pageProps} />
+  return <AppWrapper {...props} />
 }

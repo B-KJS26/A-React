@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Header from './header'
-import Onemain from './onemain'
-import Twomain from './twomain'
+import Header from '../components/header'
+import Onemain from '../components/onemain'
+import Twomain from '../components/twomain'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
