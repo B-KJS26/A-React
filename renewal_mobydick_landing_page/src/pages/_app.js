@@ -18,7 +18,7 @@ export default function App(props) {
       if (loader)
         wait(2);
       loader.style.opacity = '0';
-      window.scrollTo(0, 0);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }, []);
   return <AppWrapper {...props} />
