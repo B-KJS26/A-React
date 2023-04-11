@@ -45,7 +45,7 @@
     color: white;
     margin-left: 15vw;
     margin-top: 20vh;
-    animation: fade-in 2.5s ease-in-out;
+    animation: fade-in 2.2s ease-in-out;
 }
 
 @media(max-width: 600px) {
@@ -59,7 +59,7 @@
         justify-content: center;
         margin-left: 12.5vw;
         margin-top: 15vh;
-        animation: fade-in 2.5s ease-in-out;
+        animation: fade-in 2.2s ease-in-out;
     }
 }
 
@@ -72,7 +72,7 @@
     font-size: 1.1vw;
     margin-left: 15.2vw;
     margin-top: 44vh;
-    animation: fade-in 2.5s ease-in-out;
+    animation: fade-in 2.2s ease-in-out;
 }
 
 @media(max-width:600px) {
@@ -86,7 +86,7 @@
         font-size: 1.1vw;
         margin-left: 15.2vw;
         margin-top: 44vh;
-        animation: fade-in 2.5s ease-in-out;
+        animation: fade-in 2.2s ease-in-out;
     }
 }
 
@@ -105,7 +105,7 @@
     background-image: url(/images/apple.png);
     background-size: contain;
     background-repeat: no-repeat;
-    animation: fade-in 2.7s ease-in-out;
+    animation: fade-in 2.4s ease-in-out;
 }
 
 @media (max-width: 600px) {
@@ -121,7 +121,7 @@
         background-size: 100% 100%;
         border-radius: 10px;
         background-repeat: no-repeat;
-        animation: fade-in 2.7s ease-in-out;
+        animation: fade-in 2.4s ease-in-out;
     }
 }
 
@@ -135,7 +135,7 @@
     background-image: url(/images/Play.png);
     background-size: contain;
     background-repeat: no-repeat;
-    animation: fade-in 3s ease-in-out;
+    animation: fade-in 2.7s ease-in-out;
 }
 
 @media(max-width: 600px) {
@@ -150,7 +150,7 @@
         background-size: contain;
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        animation: fade-in 3s ease-in-out;
+        animation: fade-in 2.7s ease-in-out;
     }
 }
 
@@ -164,7 +164,7 @@
     background-image: url(/images/Phone1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    animation: fade-in-one 3.5s ease-in-out;
+    animation: fade-in-one 3.2s ease-in-out;
 }
 
 @media(max-width: 600px) {
@@ -178,7 +178,7 @@
         background-image: url(/images/Phone1.png);
         background-size: contain;
         background-repeat: no-repeat;
-        animation: fade-in-one 3.5s ease-in-out;
+        animation: fade-in-one 3.3s ease-in-out;
     }
 }
 
@@ -192,7 +192,7 @@
     background-image: url(/images/Phone2.png);
     background-size: contain;
     background-repeat: no-repeat;
-    animation: fade-in-two 4s ease-in-out;
+    animation: fade-in-two 3.7s ease-in-out;
 }
 
 @media(max-width: 600px) {
@@ -206,7 +206,7 @@
         background-image: url(/images/Phone2.png);
         background-size: contain;
         background-repeat: no-repeat;
-        animation: fade-in-two 4s ease-in-out;
+        animation: fade-in-two 3.7s ease-in-out;
     }
 }
 

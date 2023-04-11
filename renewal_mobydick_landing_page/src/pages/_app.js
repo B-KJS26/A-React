@@ -17,7 +17,7 @@ export default function App(props) {
       const loader = document.getElementById('jebal');
       if (loader)
         wait(2);
-      loader.style.display = 'none';
+      loader.style.opacity = '0';
       window.scrollTo(0, 0);
     }
   }, []);
