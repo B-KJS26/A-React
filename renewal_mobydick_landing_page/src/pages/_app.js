@@ -8,7 +8,7 @@ const AppWrapper = ({ Component, pageProps }) => {
 export default function App(props) {
   function wait(sec) {
     let start = Date.now(), now = start;
-    while (now - start < sec * 500) {
+    while (now - start < sec * 900) {
       now = Date.now();
     }
   }
