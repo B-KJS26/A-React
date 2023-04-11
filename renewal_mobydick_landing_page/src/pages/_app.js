@@ -13,7 +13,7 @@ export default function App(props) {
     }
   }
 
-  wait(1);
+  wait(2);
   React.useEffect(() => {
     if (typeof window !== 'undefined') {
       const loader = document.getElementById('jebal');
