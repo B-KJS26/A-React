@@ -15,9 +15,9 @@ export default function App(props) {
   React.useEffect(() => {
     if (typeof window !== 'undefined') {
       const loader = document.getElementById('jebal');
-      wait(1);
       if (loader)
-        loader.style.display = 'none';
+        wait(2);
+      loader.style.display = 'none';
       window.scrollTo(0, 0);
     }
   }, []);
